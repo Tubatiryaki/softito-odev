@@ -1,6 +1,6 @@
 .home {
   width: 760px;
-  height: 800px;
+  height: 300px;
   background-image: url("./img/book2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,8 +25,8 @@
   padding: 0.3rem;
   border: 1px solid white;
   text-align: center;
-  position: relative;
-  transform: translate(10px, 10px);
+  /* position: relative;
+  transform: translate(10px, 10px); */
 }
 /* .menu a:hover{
     background-color: aqua;
@@ -59,8 +59,8 @@
   background-color: rgba(210, 19, 248, 0.6);
   color: rgb(152, 238, 238);
   border-radius: 3rem solid;
-  position: absolute;
-  transform: translateY(200px);
+  /* position: absolute;
+  transform: translateY(100px); */
 }
 .saat {
   padding: 1rem;
@@ -71,16 +71,25 @@
 }
 .cards {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
+padding-top: 1rem;
   gap: 2rem;
-  position: absolute;
-  transform: translate(10%);
+  /* position: absolute;
+  transform: translate(10%); */
+}
+.card-container{
+ margin: 5rem;
+  width: 600px;
+  height: 300px;
+  background-color: rgb(219, 48, 253);
+  border-radius: 2rem;
 }
 .card1 {
   display: flex;
-  background-color: rgba(218, 110, 240, 0.7);
   border-radius: 1rem;
   background-image: url("./img/hc-kitap.png");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   justify-content: center;
@@ -88,26 +97,28 @@
   width: 150px;
   height: 250px;
 }
+
 .card2 {
   display: flex;
-  background-color: rgba(218, 110, 240, 0.7);
   border-radius: 1rem;
   background-image: url("./img/bcö-kitap.png");
   background-position: center;
   background-repeat: no-repeat;
   justify-content: center;
+  background-size: cover;
 
   width: 150px;
   height: 250px;
 }
 .card3 {
   display: flex;
-  background-color: rgba(218, 110, 240, 0.7);
+ 
   border-radius: 1rem;
   background-image: url("./img/Screenshot_1.png");
   background-position: center;
   background-repeat: no-repeat;
   justify-content: center;
+  background-size: cover;
 
   width: 150px;
   height: 250px;
@@ -118,7 +129,8 @@ h3 {
   text-align: center;
   padding: 0.5rem;
   border-radius: 3rem;
-  margin: 3rem;
+  margin: 2rem;
+  margin-bottom: 0rem;
 }
 .login-sayfa {
   width: 250px;
@@ -160,10 +172,7 @@ button{
 label{
   color: white;
 }
-.egitim{
-  width: 750px;
-  height: 300px;
-}
+
 .egitim .header strong{
   display: flex;
   font-size: 30px;
@@ -181,12 +190,21 @@ label{
   background-color: aqua;
   display: flex;
   justify-content: space-evenly;
+ border-radius: 2rem;
 }
 .iletisim-icon div{
   padding: 4rem;
+  padding-left: 1rem;
   
 }
 .iletisim-icon div i{
  font-size: 50px;
   
+}
+.header .iletisim{
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  padding: 1rem;
+  height: 100px;
 }
