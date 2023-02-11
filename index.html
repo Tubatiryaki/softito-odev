@@ -19,11 +19,12 @@
     <div class="home">
       <div class="header">
         <div><i class="fa-solid fa-bars" onclick="hamMenu()"></i></div>
+
         <div class="login">
           <button onclick="loginHide()">Login</button>
         </div>
       </div>
-      <div class="login-sayfa" id="myLogin">
+      <div class="login-sayfa" id="myLogin" style="display: none">
         <form>
           <label>Login</label>
           <input type="text" placeholder="email giriniz" />
@@ -31,7 +32,7 @@
           <button href="_blank" type="submit">Login</button>
         </form>
       </div>
-      <div class="menu" id="myMenu">
+      <div class="menu" id="myMenu" style="display: none">
         <a href="index.html">Anasayfa</a>
         <a href="egitim.html">Eğitimler</a>
         <a href="iletisim.html">İletişim</a>
@@ -47,10 +48,20 @@
           <div class="card3"></div>
         </div>
       </div>
-
-      <div class="footer">
-        <div class="saat"></div>
+    </div>
+    <div class="footer">
+      <div class="sosyal">
+        <a href="https://twitter.com/" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://tr-tr.facebook.com/" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="fa-brands fa-square-instagram"></i
+        ></a>
       </div>
+      <div class="saat"></div>
     </div>
   </body>
 </html>

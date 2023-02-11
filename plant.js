@@ -1,8 +1,8 @@
 function hamMenu() {
   var icon = document.getElementById("myMenu");
-
+  
   if (icon.style.display === "none") {
-    console.log("çalıştı")
+   
     icon.style.display = "block";
   } else {
     icon.style.display = "none";

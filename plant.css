@@ -9,7 +9,7 @@
 .header {
   width: 760px;
   height: 75px;
-  background-color: rgba(35, 19, 248, 0.9);
+  background-color: rgba(35, 19, 248, 0.6);
   color: aqua;
   border-radius: 3rem solid;
   box-shadow: 5px 2px 6px 3px #010114;
@@ -20,7 +20,7 @@
   width: 100px;
   display: flex;
   gap: 1rem;
-  background-color: rgb(58, 42, 207);
+  background-color: rgba(58, 42, 207, 0.8);
   color: rgb(250, 247, 247);
   padding: 0.3rem;
   border: 1px solid rgb(170, 241, 241);
@@ -29,7 +29,7 @@
  
 }
 .menu a:hover{
-  background-color: aqua;
+  background-color: rgba(15, 238, 238, 0.5);
   color: blue;
 }
 .menu-iletisim a{
@@ -45,9 +45,13 @@
  
 }
 .menu-iletisim{
- 
+
   position: relative;
   transform: translate(0%, -50%);
+}
+.menu-iletisim a:hover{
+  background-color: rgba(15, 238, 238, 0.5);
+  color: blue;
 }
 
 .fa-solid {
@@ -64,14 +68,11 @@
   justify-content: flex-end;
   padding: 1rem;
 }
-.login a {
-  color: aqua;
-  text-decoration: none;
-}
+
 .footer {
   display: flex;
   gap: 0.5rem;
-  justify-content: flex-end;
+  justify-content: space-between;
   width: 760px;
   height: 50px;
   background-color: rgba(35, 19, 248, 0.9);
@@ -79,8 +80,6 @@
   border-radius: 3rem solid;
   box-shadow: 5px 2px 6px 3px #010114;
  
-  /* position: absolute;
-  transform: translateY(100px); */
 }
 .saat {
   padding: 1rem;
@@ -102,7 +101,7 @@ padding-top: 1rem;
  margin: 5rem;
   width: 600px;
   height: 300px;
-  background-color: rgb(219, 48, 253);
+  background-color: rgba(219, 48, 253, 0.6);
   border-radius: 2rem;
 }
 .card1 {
@@ -144,7 +143,7 @@ padding-top: 1rem;
   height: 250px;
 }
 h3 {
-  background-color: rgb(40, 40, 250);
+  background-color: rgba(40, 40, 250, 0.8);
   color: white;
   text-align: center;
   padding: 0.5rem;
@@ -159,7 +158,7 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(35, 19, 248, 0.9);
+  background-color: rgba(35, 19, 248, 0.6);
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
@@ -183,11 +182,15 @@ input{
 }
 button{
   padding: .5rem 3rem .5rem 3rem;
-  background-color: rgb(134, 14, 247);
+  background-color: rgb(24, 2, 44);
   border: none;
   border-radius: 1rem;
   color: white;
 
+}
+button:hover{
+  background-color: rgba(137, 15, 238, 0.6);
+  color: rgb(24, 2, 44);
 }
 label{
   color: white;
@@ -249,4 +252,17 @@ label{
   border: 1px solid red;
   padding: 1rem;
   background-color: rgb(230, 192, 192);
+}
+.iletisim{
+  font-family: 'Kaushan Script', cursive;
+}
+.sosyal{
+  display: flex;
+  gap: 1rem;
+  justify-content: first baseline;
+  padding: 1rem 0 1rem 3rem;
+}
+.sosyal i{
+  color: white;
+  font-size: 20px;
 }
