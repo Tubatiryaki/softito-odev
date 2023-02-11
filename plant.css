@@ -26,6 +26,7 @@
   border: 1px solid rgb(170, 241, 241);
   text-align: center;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
  
 }
 .menu a:hover{
@@ -87,6 +88,7 @@
   color:  aqua;
   /* background-color: rgba(218, 110, 240); */
   border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
 }
 .cards {
   display: flex;
@@ -150,6 +152,7 @@ h3 {
   border-radius: 3rem;
   margin: 2rem;
   margin-bottom: 0rem;
+  font-family: 'Roboto', sans-serif;
 }
 .login-sayfa {
   width: 250px;
@@ -164,6 +167,7 @@ h3 {
   border-radius: 1rem;
   position: relative;
   transform: translateX(150%);
+  font-family: 'Roboto', sans-serif;
 
 }
 form{
@@ -236,7 +240,8 @@ label{
   gap: 2rem;
   padding: 1rem;
   color: #010114;
-  top: 0;;
+  top: 0;
+ 
 }
 .metin .vizyon p{
   width: 500px;
@@ -254,7 +259,8 @@ label{
   background-color: rgb(230, 192, 192);
 }
 .iletisim{
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900px;
 }
 .sosyal{
   display: flex;
@@ -265,4 +271,12 @@ label{
 .sosyal i{
   color: white;
   font-size: 20px;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.vizyon{
+  font-family: 'Roboto', sans-serif;
+  font-size: smaller;
 }
